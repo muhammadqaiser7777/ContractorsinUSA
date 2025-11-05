@@ -42,7 +42,7 @@ const CaliforniaPolicy = () => {
           This California Privacy Notice supplements the information contained
           in our general Privacy Policy and applies solely to those visitors and
           users that are residents of the State of California (“consumer” or
-          “you”). getlocalcontractors.com (“we”, “us”, “our”) adopts this notice
+          “you”). contractorsinusa.com (“we”, “us”, “our”) adopts this notice
           to comply with the California Consumer Privacy Act of 2018 (“CCPA”),
           as amended, and other California Privacy laws. Any terms defined by
           the CCPA have the same meaning when used in this notice.
@@ -489,7 +489,7 @@ const CaliforniaPolicy = () => {
         <p>
           To exercise the access, data portability, deletion and opt-out rights
           described above, please submit a verifiable consumer request to us by
-          Emailing us compliance@getlocalcontractors.com Only you or a person
+          Emailing us compliance@contractorsinusa.com Only you or a person
           registered with the California Secretary of State that you authorize
           to act on your behalf, may make a verifiable consumer request related
           to your personal information. You may also make a verifiable consumer
@@ -658,11 +658,12 @@ const CaliforniaPolicy = () => {
         Policy, the ways in which we collect and use your personal information,
         your choices and rights regarding such use, or wish to exercise your
         rights under California law, please do not hesitate to contact us at:
-        <span className="font-bold">Email:</span> getlocalcontractors.com Postal
-        Address: getlocalcontractors.com, 8 The Green Street B, Kent, DE, Dover, 19901, United States
+        <span className="font-bold">Email:</span> contractorsinusa.com Postal
+        Address: contractorsinusa.com, 8 The Green Street B, Kent, DE, Dover, 19901, United States
       </div>
     </div>
   );
 };
 
 export default CaliforniaPolicy;
+

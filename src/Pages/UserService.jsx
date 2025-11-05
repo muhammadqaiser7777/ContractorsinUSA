@@ -59,9 +59,9 @@ const UserService = () => {
             , which is incorporated by reference.
           </p>
           <p>
-            getlocalcontractors.com, a Pennsylvania limited liability company
+            contractorsinusa.com, a Pennsylvania limited liability company
             and its affiliates and subsidiaries, (collectively
-            “getlocalcontractors.com”, “we”, “us”, “our”, or “Company”)
+            “contractorsinusa.com”, “we”, “us”, “our”, or “Company”)
             encourages all users of this platform and service to review this
             Terms of Use Agreement (“Agreement”).
           </p>
@@ -185,7 +185,7 @@ const UserService = () => {
         <h2>Indemnification</h2>
         <section>
           <p>
-            You agree to indemnify and hold getlocalcontractors.com and its
+            You agree to indemnify and hold contractorsinusa.com and its
             affiliates harmless from any claim or demand arising out of your use
             of this platform or violation of this Agreement.
           </p>
@@ -212,3 +212,4 @@ const UserService = () => {
 };
 
 export default UserService;
+

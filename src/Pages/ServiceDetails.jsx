@@ -290,7 +290,7 @@ const ServiceDetails = () => {
   const validationSchema = Yup.object(fieldValidationSchemas);
 
 const TcpaText =
-  "By providing my phone number, I consent to receive marketing calls and/or text messages, including from automated systems, at the phone number provided, from Get Local Contractors and its affiliates. I understand that consent is not required for purchase. I also understand that message and data rates may apply. I can revoke my consent at any time by replying “STOP” to any text message or contacting PingTree Systems directly. For more information, please refer to PTS's Privacy Policy.";
+  "By providing my phone number, I consent to receive marketing calls and/or text messages, including from automated systems, at the phone number provided, from Contractors in USA and its affiliates. I understand that consent is not required for purchase. I also understand that message and data rates may apply. I can revoke my consent at any time by replying “STOP” to any text message or contacting PingTree Systems directly. For more information, please refer to PTS's Privacy Policy.";
 
 const handleSubmit = (values, { resetForm }) => {
   setLoading(true);
@@ -785,7 +785,7 @@ const handleSubmit = (values, { resetForm }) => {
   };
 
   // ✅ Send API Request as application/json
-  fetch("https://getlocalcontractors.com/api/ping-proxy.php", {
+  fetch("https://contractorsinusa.com/api/ping-proxy.php", {
     method: "POST",
     headers:
     {
@@ -1491,3 +1491,4 @@ const stateAbbreviations = {
 
 
 export default ServiceDetails;
+

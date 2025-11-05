@@ -62,14 +62,14 @@ const Footer = () => {
         {/* Optional: Contact Info or Newsletter */}
         <div>
           <h6 className="text-lg font-semibold mb-2">Stay Connected</h6>
-          <p className="text-sm mb-2">info@getlocalcontractors.com</p>
+          <p className="text-sm mb-2">info@contractorsinusa.com</p>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className="border-t border-secondary mt-10 p-4 text-center text-sm bg-primary text-secondary">
         <p>
-          © {new Date().getFullYear()} GetLocalContractors Pvt Ltd. All rights
+          © {new Date().getFullYear()} Contractor in USA Pvt Ltd. All rights
           reserved.
         </p>
       </div>
@@ -78,3 +78,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

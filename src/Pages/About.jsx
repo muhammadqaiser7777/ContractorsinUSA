@@ -44,7 +44,7 @@ const About = () => {
       </h1>
       <div className="container mx-auto px-6 lg:px-20 py-12">
         <p className="text-[#1f2020] text-lg leading-relaxed text-center">
-          GetLocalContractors is an innovative way for you to connect with home
+          Contractors in USA is an innovative way for you to connect with home
           service providers nearby. Finding the right home contractor according
           to your needs and budget can be a daunting task. We make it easy for
           home owners to connect with multiple qualified professionals in their
@@ -53,7 +53,7 @@ const About = () => {
         </p>
         <div className="pl-8 pt-10">
           <h1 className="font-bold">
-            What getlocalcontractors helps you with?
+            What Contractors in USA helps you with?
           </h1>
           <ul>
             <li>- To find the right Professional near you</li>
@@ -108,3 +108,4 @@ const About = () => {
 };
 
 export default About;
+

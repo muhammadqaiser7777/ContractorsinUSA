@@ -53,7 +53,7 @@ const Contact = () => {
           </div>
           <div className="flex items-center space-x-4">
             <FaEnvelope className="text-primary text-xl" />
-            <span className="text-lg">info@getlocalcontractors.com</span>
+            <span className="text-lg">info@contractorsinusa.com</span>
           </div>
           <div className="flex items-center space-x-4">
             <FaMapMarkerAlt className="text-primary text-xl" />
@@ -146,3 +146,4 @@ const Contact = () => {
 };
 
 export default Contact;
+

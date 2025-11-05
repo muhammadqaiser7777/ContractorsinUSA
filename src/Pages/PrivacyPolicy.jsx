@@ -58,9 +58,9 @@ const PrivacyPolicy = () => {
         <p>
           We are committed to providing users a friendly and safe environment
           for providing consumer data. This Privacy Policy discloses the privacy
-          practices of getlocalcontractors.com, an Pennsylvania limited
+          practices of contractorsinusa.com, an Pennsylvania limited
           liability company and its affiliates and subsidiaries, (collectively
-          “getlocalcontractors.com”, “we”, “us”, “our”, or “Company”) and
+          “contractorsinusa.com”, “we”, “us”, “our”, or “Company”) and
           governs the use of this platform, or other Company web properties,
           platforms, products and services (collectively, the “Services” or
           “Platform”) by users (“you” or “your” ). We have created this Privacy
@@ -340,7 +340,7 @@ const PrivacyPolicy = () => {
         <p>
           You may revoke consent at any time for any use of personal information
           collected from you under this Privacy Policy. To revoke consent, email
-          us at info@getlocalcontractors.com with “Revoke Personal Information”
+          us at info@contractorsinusa.com with “Revoke Personal Information”
           in the subject line. PLEASE NOTE: Data collected may be purchased and/
           or transferred by our client network, affiliates, and/or vendors which
           takes place immediately in real-time. Should you decide to
@@ -413,7 +413,7 @@ const PrivacyPolicy = () => {
           purposes, such as to prevent identity theft or other misconduct. For
           inquiries regarding personal information collected or to correct
           factual inaccuracies in this information, please email us at:
-          info@getlocalcontractors.com.
+          info@contractorsinusa.com.
         </p>
         <h1 className="font-bold text-2xl">Storage and Security</h1>
         <p>
@@ -444,7 +444,7 @@ const PrivacyPolicy = () => {
           or security feature confidential. Please do not share your password
           with anyone. If you believe your password or account has been
           compromised, please contact us immediately at
-          info@getlocalcontractors.com.
+          info@contractorsinusa.com.
         </p>
         <h1 className="font-bold text-2xl">Minors and Privacy Issues</h1>
         <p>
@@ -454,7 +454,7 @@ const PrivacyPolicy = () => {
           you become aware of the existence of a user who is under the age of
           thirteen, or that an individual under thirteen has provided their
           information to us, contact us immediately with details at
-          info@getlocalcontractors.com If you have been reported as being below
+          info@contractorsinusa.com If you have been reported as being below
           thirteen by another person, we may request that you verify your age to
           us, including providing us a copy of your photo ID as a condition of
           your continued use of our service.
@@ -486,11 +486,11 @@ const PrivacyPolicy = () => {
         </p>
         <h1 className="font-bold text-2xl">Contact Information</h1>
         <p>
-          <h4 className="font-bold">Email:</h4> info@getlocalcontractors.com
+          <h4 className="font-bold">Email:</h4> info@contractorsinusa.com
           <h4 className="font-bold">Address:</h4> 8 The Green Street B, Kent, DE, Dover, 19901, United States 
           If you have any comments or questions regarding our Privacy
           Policy, or to report abuse of any personal information collected under
-          this Privacy Policy, please email us at info@getlocalcontractors.com
+          this Privacy Policy, please email us at info@contractorsinusa.com
           For more information about protecting your privacy, you may wish to
           visit:{" "}
           <Link
@@ -507,3 +507,4 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
+

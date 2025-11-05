@@ -105,7 +105,7 @@ const Home = () => {
             animate="visible"
             variants={h1Variants}
           >
-            Get Local Contractors
+            Contractors in USA
           </motion.h1>
 
           {/* Second h1 with typing effect */}
