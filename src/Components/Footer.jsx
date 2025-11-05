@@ -10,8 +10,8 @@ const Footer = () => {
           <Link to="/" className="inline-block mb-4">
             <img
               className="h-14 lg:h-16"
-              src="/assets/images/Logo.png"
-              alt="Local Contractors Logo"
+              src="/assets/images/logo.webp"
+              alt="Contractors in USA Logo"
             />
           </Link>
           <p className="text-sm">
@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-secondary mt-10 p-4 text-center text-sm bg-primary text-secondary">
+      <div className="border-t border-secondary mt-10 p-4 text-center text-sm bg-primary text-foreground">
         <p>
           © {new Date().getFullYear()} Contractor in USA Pvt Ltd. All rights
           reserved.

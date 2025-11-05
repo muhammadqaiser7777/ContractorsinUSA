@@ -51,7 +51,7 @@ const WhyUs = () => {
         )}
 
         {/* Overlay Content Wrapper */}
-        <div className="relative lg:absolute lg:top-1/2 lg:right-0 lg:-translate-y-1/2 bg-primary bg-opacity-80 text-secondary p-6 w-full lg:w-1/2 z-20 lg:rounded-lg">
+        <div className="relative lg:absolute lg:top-1/2 lg:right-0 lg:-translate-y-1/2 bg-primary bg-opacity-80 text-foreground p-6 w-full lg:w-1/2 z-20 lg:rounded-lg">
         <h1
         className="font-bold md:text-3xl sm:text-2xl text-xl text-center pt-10 pb-20"
       >
@@ -95,8 +95,8 @@ const WhyUs = () => {
                 key={index}
                 className={`mb-4 p-3 rounded-md transition-all duration-200 ${
                   isOpen
-                    ? "bg-secondary text-secondary-foreground"
-                    : "hover:bg-secondary hover:text-secondary-foreground"
+                    ? "bg-secondary text-foreground"
+                    : "hover:bg-secondary hover:text-foreground"
                 }`}
               >
                 <div
@@ -121,13 +121,13 @@ const WhyUs = () => {
                   </svg>
                 </div>
                 {isOpen && (
-                  <p className="mt-2 text-sm text-primary">{item.sub}</p>
+                  <p className="mt-2 text-sm text-foreground">{item.sub}</p>
                 )}
               </div>
             );
           })}
           <Link to="/services">
-          <button className="mt-4 bg-accent text-secondary px-6 py-2 rounded-md cursor-pointer font-semibold">
+          <button className="mt-4 bg-accent text-foreground px-6 py-2 rounded-md cursor-pointer font-semibold">
             Get Services
           </button>
           </Link>

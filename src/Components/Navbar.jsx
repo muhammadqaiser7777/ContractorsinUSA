@@ -69,10 +69,10 @@ const NavBar = () => {
             <img
               src={
                 isHomePage
-                  ? "/assets/images/Logo.png"
-                  : "/assets/images/Logo(Black).png"
+                  ? "/assets/images/logo.webp"
+                  : "/assets/images/logo.webp"
               }
-              alt="Local Contractors"
+              alt="Contractors in USA"
               className="h-24 w-auto"
             />
           </Link>
@@ -120,7 +120,7 @@ const NavBar = () => {
           ref={menuRef}
           className={`${
             menuOpen ? "flex" : "hidden"
-          } md:flex flex-col md:flex-row md:items-stretch space-y-3 md:space-y-0 md:space-x-3 absolute md:static top-24 left-0 w-full md:w-auto bg-primary md:bg-secondary md:rounded-2xl md:text-primary md:top-5 p-4 md:p-0`}
+          } md:flex flex-col md:flex-row md:items-stretch space-y-3 md:space-y-0 md:space-x-3 absolute md:static top-24 left-0 w-full md:w-auto bg-primary md:bg-secondary md:rounded-2xl md:text-foreground md:top-5 p-4 md:p-0`}
         >
           {menuItems.map((item) => (
             <li key={item.path} className="flex">
@@ -136,10 +136,10 @@ const NavBar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-primary bg-secondary cursor-pointer text-lg">
+                <NavigationMenuTrigger className="text-foreground bg-secondary cursor-pointer text-lg">
                   Services
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-secondary text-primary">
+                <NavigationMenuContent className="bg-secondary text-foreground">
                   <ul className="grid grid-cols-2 md:grid-cols-3 gap-2 md:w-[400px] w-[300px]">
                     {allServices.map((service) => (
                       <li
@@ -158,7 +158,7 @@ const NavBar = () => {
         </ul>
 
         <Link to="/Services">
-          <Button className="md:flex hidden text-secondary cursor-pointer">
+          <Button className="md:flex hidden text-foreground cursor-pointer">
             Get Our Consultation!
           </Button>
         </Link>

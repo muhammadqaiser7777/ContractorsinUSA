@@ -29,7 +29,7 @@ const ScrollUp = () => {
         className="fixed bottom-5 right-5 cursor-pointer z-50"
       >
         <div
-          className="relative w-12 h-12 flex items-center justify-center rounded-full bg-primary text-secondary shadow-2xl hover:scale-105 transition-all duration-300"
+          className="relative w-12 h-12 flex items-center justify-center rounded-full bg-primary text-foreground shadow-2xl hover:scale-105 transition-all duration-300"
         >
           <svg
             className="absolute top-0 left-0 w-full h-full transform -rotate-90"

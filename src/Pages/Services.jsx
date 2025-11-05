@@ -64,8 +64,8 @@ const Services = ({ visibleServices, homeView = false }) => {
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2 ">{service.title}</h3>
-              <p className="text-secondary mb-4">{service.description}</p>
-              <button className="px-20 py-2 bg-secondary text-white rounded-lg cursor-pointer">
+              <p className="text-foreground mb-4">{service.description}</p>
+              <button className="px-20 py-2 bg-secondary text-foreground rounded-lg cursor-pointer">
                 Get Quote
               </button>
             </div>
@@ -74,7 +74,7 @@ const Services = ({ visibleServices, homeView = false }) => {
         {visibleServices < allServices.length && (
           <Link to="/Services">
             <div className="flex justify-center mt-10">
-              <Button className="text-secondary cursor-pointer ">
+              <Button className="text-foreground cursor-pointer ">
                 All Services
               </Button>
             </div>

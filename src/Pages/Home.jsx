@@ -109,7 +109,7 @@ const Home = () => {
           </motion.h1>
 
           {/* Second h1 with typing effect */}
-          <h1 className="text-primary text-2xl font-semibold">
+          <h1 className="text-foreground text-2xl font-semibold">
             Your project, our{" "}
             <AnimatePresence mode="wait">
               <motion.span
@@ -128,15 +128,6 @@ const Home = () => {
           
         </div>
         
-
-        {/* Right Side Image */}
-        <div className="absolute md:right-0 md:bottom-0 md:top-22 top-80 right-5 hidden md:block">
-          <img
-            src="/assets/images/side-portrait.png"
-            alt="Contractor working"
-            className="md:w-xl md:h-118 w-sm h-60"
-          />
-        </div>  
       </div>
       
 

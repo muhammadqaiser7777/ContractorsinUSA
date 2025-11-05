@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Newsletter = () => {
   return (
-    <div className="bg-primary text-secondary p-20">
+    <div className="bg-primary text-foreground p-20">
       <div className="flex items-center w-full flex-col sm:flex-row gap-y-4">
         {/* Left Text */}
         <span className="text-2xl font-bold whitespace-nowrap">
@@ -15,7 +15,7 @@ const Newsletter = () => {
 
         {/* Button */}
         <Link to="/services">
-          <button className="bg-accent text-secondary px-6 py-2 rounded-md cursor-pointer font-semibold whitespace-nowrap">
+          <button className="bg-accent text-foreground px-6 py-2 rounded-md cursor-pointer font-semibold whitespace-nowrap">
             Get Services
           </button>
         </Link>

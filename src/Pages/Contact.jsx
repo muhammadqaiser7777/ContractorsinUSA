@@ -48,15 +48,15 @@ const Contact = () => {
         {/* Contact Information */}
         <div className="space-y-6 pl-10 pt-20">
           <div className="flex items-center space-x-4">
-            <FaPhone className="text-primary text-xl" />
+            <FaPhone className="text-foreground text-xl" />
             <span className="text-lg">+1 9293900290</span>
           </div>
           <div className="flex items-center space-x-4">
-            <FaEnvelope className="text-primary text-xl" />
+            <FaEnvelope className="text-foreground text-xl" />
             <span className="text-lg">info@contractorsinusa.com</span>
           </div>
           <div className="flex items-center space-x-4">
-            <FaMapMarkerAlt className="text-primary text-xl" />
+            <FaMapMarkerAlt className="text-foreground text-xl" />
             <span className="text-lg">8 The Green Street B, Kent, DE, Dover, 19901, United States</span>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Contact = () => {
         <div className="bg-white p-6 shadow-lg rounded-lg">
           <form className="space-y-4">
             <div>
-              <label className="block text-secondary">Your Name</label>
+              <label className="block text-foreground">Your Name</label>
               <input
                 type="text"
                 className="w-full p-2 border border-secondary rounded"
@@ -73,7 +73,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block text-secondary">Your Email</label>
+              <label className="block text-foreground">Your Email</label>
               <input
                 type="email"
                 className="w-full p-2 border border-secondary rounded"
@@ -89,7 +89,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block text-secondary">Message</label>
+              <label className="block text-foreground">Message</label>
               <textarea
                 className="w-full p-2 border border-secondary rounded resize-none"
                 rows="3"
@@ -98,7 +98,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-secondary py-2 rounded "
+              className="w-full bg-primary text-foreground py-2 rounded "
             >
               Send Message
             </button>
