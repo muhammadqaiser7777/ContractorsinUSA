@@ -95,8 +95,8 @@ const WhyUs = () => {
                 key={index}
                 className={`mb-4 p-3 rounded-md transition-all duration-200 ${
                   isOpen
-                    ? "bg-secondary text-foreground"
-                    : "hover:bg-secondary hover:text-foreground"
+                    ? "bg-secondary text-white"
+                    : "hover:bg-secondary hover:text-white"
                 }`}
               >
                 <div
@@ -116,12 +116,12 @@ const WhyUs = () => {
                   >
                     <path
                       d="M0.247423 16.3415C-0.116259 16.7571 -0.0741412 17.3889 0.341495 17.7526C0.757132 18.1163 1.38889 18.0741 1.75258 17.6585L0.247423 16.3415ZM15.9978 0.933481C15.961 0.38242 15.4845 -0.0345222 14.9335 0.00221496L5.95341 0.600887C5.40235 0.637624 4.98541 1.11413 5.02215 1.66519C5.05889 2.21625 5.53539 2.63319 6.08645 2.59646L14.0687 2.0643L14.6009 10.0466C14.6376 10.5976 15.1141 11.0146 15.6652 10.9779C16.2163 10.9411 16.6332 10.4646 16.5965 9.91355L15.9978 0.933481ZM1.75258 17.6585L15.7526 1.65851L14.2474 0.341496L0.247423 16.3415L1.75258 17.6585Z"
-                      fill={isOpen ? "#ffb000" : "white"}
+                      fill={isOpen ? "#a32121" : "white"}
                     />
                   </svg>
                 </div>
                 {isOpen && (
-                  <p className="mt-2 text-sm text-foreground">{item.sub}</p>
+                  <p className="mt-2 text-sm text-white">{item.sub}</p>
                 )}
               </div>
             );

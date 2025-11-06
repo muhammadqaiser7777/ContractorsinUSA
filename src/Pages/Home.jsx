@@ -82,17 +82,17 @@ const Home = () => {
             >
               <motion.path
                 d="M0 5.74514H6V17.7451H0V5.74514Z"
-                fill="#ffb000"
+                fill="#a32121"
                 variants={svgPathVariants}
               />
               <motion.path
                 d="M6 8.74514H103V14.7451H6V8.74514Z"
-                fill="#ffb000"
+                fill="#a32121"
                 variants={svgPathVariants}
               />
               <motion.path
                 d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-                fill="#ffb000"
+                fill="#a32121"
                 variants={svgPathVariants}
               />
             </svg>
@@ -109,7 +109,7 @@ const Home = () => {
           </motion.h1>
 
           {/* Second h1 with typing effect */}
-          <h1 className="text-foreground text-2xl font-semibold">
+          <h1 className="text-white text-2xl font-semibold">
             Your project, our{" "}
             <AnimatePresence mode="wait">
               <motion.span
@@ -148,7 +148,7 @@ const Home = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
         <div className="border-t border-secondary w-full max-w-md"></div>
@@ -162,7 +162,7 @@ const Home = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
       </div>
@@ -189,7 +189,7 @@ const Home = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
         <div className="border-t border-secondary w-full max-w-md"></div>
@@ -203,7 +203,7 @@ const Home = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
       </div>

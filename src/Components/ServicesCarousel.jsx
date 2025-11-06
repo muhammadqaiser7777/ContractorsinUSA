@@ -53,7 +53,7 @@ const ServicesCarousel = () => {
           >
             <Link
               to={`/services/${service.title}`}
-              className="block px-6 py-3 bg-primary text-foreground rounded-lg shadow-md hover:bg-secondary-foreground transition-all"
+              className="block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-secondary-foreground hover:text-black transition-all"
             >
               {service.title}
             </Link>

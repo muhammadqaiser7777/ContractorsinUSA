@@ -61,7 +61,7 @@ const NavBar = () => {
   };
 
   return (
-    <header className="p-4 text-secondary fixed top-0 left-0 w-full z-50">
+    <header className="p-4 text-white fixed top-0 left-0 w-full z-50">
       <div className="container flex h-14 mx-auto md:justify-between">
         {/* Logo */}
         <div className="flex items-center p-2">
@@ -82,7 +82,7 @@ const NavBar = () => {
         <button
           ref={hamburgerRef}
           className={`block md:hidden p-4 z-50 ml-auto mr-4 ${
-            isHomePage ? "text-secondary-foreground" : "text-secondary"
+            isHomePage ? "text-white" : "text-white"
           }`}
           onClick={handleHamburgerClick}
         >
@@ -120,13 +120,13 @@ const NavBar = () => {
           ref={menuRef}
           className={`${
             menuOpen ? "flex" : "hidden"
-          } md:flex flex-col md:flex-row md:items-stretch space-y-3 md:space-y-0 md:space-x-3 absolute md:static top-24 left-0 w-full md:w-auto bg-primary md:bg-secondary md:rounded-2xl md:text-foreground md:top-5 p-4 md:p-0`}
+          } md:flex flex-col md:flex-row md:items-stretch space-y-3 md:space-y-0 md:space-x-3 absolute md:static top-24 left-0 w-full md:w-auto bg-primary md:bg-secondary md:rounded-2xl md:text-white md:top-5 p-4 md:p-0`}
         >
           {menuItems.map((item) => (
             <li key={item.path} className="flex">
               <Link
                 to={item.path}
-                className="block w-full px-4 py-4 cursor-pointer font-semibold"
+                className="block w-full px-4 py-4 cursor-pointer font-semibold text-white"
                 onClick={() => handleMenuItemClick(item.path)}
               >
                 {item.label}
@@ -136,16 +136,16 @@ const NavBar = () => {
           <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
-                <NavigationMenuTrigger className="text-foreground bg-secondary cursor-pointer text-lg">
+                <NavigationMenuTrigger className="text-white bg-secondary cursor-pointer text-lg">
                   Services
                 </NavigationMenuTrigger>
-                <NavigationMenuContent className="bg-secondary text-foreground">
+                <NavigationMenuContent className="bg-secondary text-white">
                   <ul className="grid grid-cols-2 md:grid-cols-3 gap-2 md:w-[400px] w-[300px]">
                     {allServices.map((service) => (
                       <li
                         key={service.title}
                         onClick={() => handleMenuItemClick(`/Services/${service.title}`)}
-                        className="cursor-pointer p-2 rounded-md text-sm font-medium"
+                        className="cursor-pointer p-2 rounded-md text-sm font-medium text-white"
                       >
                         {service.title}
                       </li>
@@ -158,7 +158,7 @@ const NavBar = () => {
         </ul>
 
         <Link to="/Services">
-          <Button className="md:flex hidden text-foreground cursor-pointer">
+          <Button className="md:flex hidden text-white cursor-pointer">
             Get Our Consultation!
           </Button>
         </Link>

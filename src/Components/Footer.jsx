@@ -8,11 +8,13 @@ const Footer = () => {
         {/* Logo */}
         <div>
           <Link to="/" className="inline-block mb-4">
-            <img
-              className="h-14 lg:h-16"
-              src="/assets/images/logo.webp"
-              alt="Contractors in USA Logo"
-            />
+            <div className="bg-white rounded-lg p-2 inline-block">
+              <img
+                className="h-14 lg:h-16"
+                src="/assets/images/logo.webp"
+                alt="Contractors in USA Logo"
+              />
+            </div>
           </Link>
           <p className="text-sm">
             Your trusted platform for connecting with professional contractors
@@ -67,7 +69,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-secondary mt-10 p-4 text-center text-sm bg-primary text-foreground">
+      <div className="border-t border-secondary mt-10 p-4 text-center text-sm bg-primary text-white">
         <p>
           © {new Date().getFullYear()} Contractor in USA Pvt Ltd. All rights
           reserved.

@@ -1183,7 +1183,7 @@ const stateAbbreviations = {
         <div className="max-w-md mx-auto mb-8">
           <div className="bg-gray-200 rounded-full h-2.5">
             <div
-              className="bg-[#ffb000] h-2.5 rounded-full transition-all duration-300"
+              className="bg-[#a32121] h-2.5 rounded-full transition-all duration-300"
               style={{ width: `${(currentStep / (totalSteps - 1)) * 100}%` }}
             ></div>
           </div>
@@ -1248,14 +1248,14 @@ const stateAbbreviations = {
                         type="date"
                         name={currentField.name}
                         min={new Date().toISOString().split("T")[0]} // Only allow today or future
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                       />
                     ) : currentField.type === "select" ? (
                       <div>
                         <Field
                           as="select"
                           name={currentField.name}
-                          className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                          className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                         >
                           <option value="">Select an option</option>
                           {currentField.options?.map((option, idx) => (
@@ -1269,7 +1269,7 @@ const stateAbbreviations = {
                       <Field
                         as="textarea"
                         name={currentField.name}
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent resize-none"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent resize-none"
                         rows="4"
                       />
                     ) : currentField.type === "checkbox" ? (
@@ -1316,7 +1316,7 @@ const stateAbbreviations = {
                       <Field
                         type="tel"
                         name={currentField.name}
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                         onChange={(e) => {
                           const value = e.target.value
                             .replace(/\D/g, "")
@@ -1331,7 +1331,7 @@ const stateAbbreviations = {
                       <Field
                         type="text"
                         name={currentField.name}
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                         inputMode="numeric"
                         maxLength={5}
                         pattern="\d*"
@@ -1346,7 +1346,7 @@ const stateAbbreviations = {
                         <Field
                           type="text"
                           name={currentField.name}
-                          className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                          className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                           placeholder="Type to search energy providers"
                           onChange={(e) => {
                             const value = e.target.value;
@@ -1387,7 +1387,7 @@ const stateAbbreviations = {
                       <Field
                         type={currentField.type}
                         name={currentField.name}
-                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#ffb000] focus:border-transparent"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#a32121] focus:border-transparent"
                         placeholder={`Enter your ${currentField.label.toLowerCase()}`}
                         onKeyDown={(e) => {
                           if (
@@ -1432,7 +1432,7 @@ const stateAbbreviations = {
                     {isLastStep ? (
                       <button
                         type="submit"
-                        className="px-6 py-2 bg-[#ffb000] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto flex items-center justify-center"
+                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto flex items-center justify-center"
                         disabled={loading || ipCountryCode !== "US"} // <-- Use disabled, not blocked
                         style={{
                           opacity: loading || ipCountryCode !== "US" ? 0.5 : 1,
@@ -1460,7 +1460,7 @@ const stateAbbreviations = {
                             setFieldValue // <-- pass this
                           )
                         }
-                        className="px-6 py-2 bg-[#ffb000] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto"
+                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto"
                       >
                         Next
                       </button>
@@ -1478,7 +1478,7 @@ const stateAbbreviations = {
           }}
         </Formik>
         {validating && (
-          <div className="text-center text-[#ffb000] font-semibold mb-2">
+          <div className="text-center text-[#a32121] font-semibold mb-2">
             Validating...
           </div>
         )}

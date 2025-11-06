@@ -21,11 +21,11 @@ const Services = ({ visibleServices, homeView = false }) => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
@@ -37,11 +37,11 @@ const Services = ({ visibleServices, homeView = false }) => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
@@ -65,7 +65,7 @@ const Services = ({ visibleServices, homeView = false }) => {
               </div>
               <h3 className="text-xl font-semibold mb-2 ">{service.title}</h3>
               <p className="text-foreground mb-4">{service.description}</p>
-              <button className="px-20 py-2 bg-secondary text-foreground rounded-lg cursor-pointer">
+              <button className="px-20 py-2 bg-primary text-white rounded-lg cursor-pointer">
                 Get Quote
               </button>
             </div>
@@ -93,7 +93,7 @@ const Services = ({ visibleServices, homeView = false }) => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
         <div className="border-t border-secondary w-full max-w-md"></div>
@@ -107,7 +107,7 @@ const Services = ({ visibleServices, homeView = false }) => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
       </div>

@@ -17,11 +17,11 @@ const Contact = () => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
@@ -33,11 +33,11 @@ const Contact = () => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
@@ -98,7 +98,7 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-primary text-foreground py-2 rounded "
+              className="w-full bg-secondary text-white py-2 rounded "
             >
               Send Message
             </button>
@@ -123,7 +123,7 @@ const Contact = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
         <div className="border-t border-secondary w-full max-w-md"></div>
@@ -137,7 +137,7 @@ const Contact = () => {
         >
           <path
             d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-            fill="#ffb000"
+            fill="#a32121"
           />
         </svg>
       </div>

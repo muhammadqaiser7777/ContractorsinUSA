@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceProviders = () => {
   const marketingPartners = [
-     "33Mile Radius", "360 Media Direct", "4 Legal Leads",
+    "33Mile Radius", "360 Media Direct", "4 Legal Leads",
     "5 Mile Media", "800Medigap", "ABC Leads", "ADT Solar", "Admaric", "Admediary", "Adopt-a-Contractor",
     "Adsparkx", "AdvertisingResults.com", "AgedLeadStore.com", "AHCPAIGAll Digital Promotions",
     "All Directions Express", "Alphatech Resource Holdings s.r.o.", "Ambient Home Solutions",
@@ -3527,11 +3527,11 @@ const ServiceProviders = () => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
@@ -3543,11 +3543,11 @@ const ServiceProviders = () => {
             viewBox="0 0 123 24"
             fill="none"
           >
-            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#ffb000"></path>
-            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#ffb000"></path>
+            <path d="M0 5.74514H6V17.7451H0V5.74514Z" fill="#a32121"></path>
+            <path d="M6 8.74514H103V14.7451H6V8.74514Z" fill="#a32121"></path>
             <path
               d="M99 11.7451L110.745 0L122.49 11.7451L110.745 23.4903L99 11.7451Z"
-              fill="#ffb000"
+              fill="#a32121"
             ></path>
           </svg>
         </span>
