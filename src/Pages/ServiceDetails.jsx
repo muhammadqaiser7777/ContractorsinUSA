@@ -1432,7 +1432,7 @@ const stateAbbreviations = {
                     {isLastStep ? (
                       <button
                         type="submit"
-                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto flex items-center justify-center"
+                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-secondary hover:text-white transition duration-300 ml-auto flex items-center justify-center"
                         disabled={loading || ipCountryCode !== "US"} // <-- Use disabled, not blocked
                         style={{
                           opacity: loading || ipCountryCode !== "US" ? 0.5 : 1,
@@ -1460,7 +1460,7 @@ const stateAbbreviations = {
                             setFieldValue // <-- pass this
                           )
                         }
-                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-amber-500 transition duration-300 ml-auto"
+                        className="px-6 py-2 bg-[#a32121] text-black rounded-md hover:bg-secondary hover:text-white transition duration-300 ml-auto"
                       >
                         Next
                       </button>
