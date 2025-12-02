@@ -411,6 +411,7 @@ const handleSubmit = (values, { resetForm }) => {
         "600$",
         "700$",
         "800$",
+        "900$",
         "More than 900$",
       ];
       const selected = formDataObj["How much is your currency bill?"];
@@ -645,7 +646,7 @@ const handleSubmit = (values, { resetForm }) => {
           "BrickFace Install/Replace",
           "BrickFace Repair",
           "Composite Wood - Install/Replace",
-          " Composite Wood - Repair",
+          "Composite Wood - Repair",
           "StoneFace- Install/Replace",
           "StoneFace- Repair",
           "Stucco- Install/Replace",
@@ -730,7 +731,7 @@ const handleSubmit = (values, { resetForm }) => {
         "Vinyl or PVC Fence Repair",
         "Chain Link Fence Install/Replace",
         "Chain Link Fence Repair",
-        "Wrought Iron Fence Install/Relace",
+        "Wrought Iron Fence Install/Replace",
         "Wrought Iron Fence Repair",
         "Aluminium Or Steel Fence Install/Replace",
         "Aluminium Or Steel Fence Repair",
