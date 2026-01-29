@@ -127,6 +127,10 @@ const ServiceDetails = () => {
         const value = urlParams.get(key);
         if (value) paramsToStore[key] = value;
       });
+      // Set click_id to the same value as transaction_id
+      if (paramsToStore.transaction_id) {
+        paramsToStore.click_id = paramsToStore.transaction_id;
+      }
       affiliateParamsRef.current = paramsToStore;
 
       // Remove query params from URL (clean URL)
